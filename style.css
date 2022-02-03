@@ -1,0 +1,211 @@
+html {
+  --PaleBlue: hsl(243, 500%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-color: var(--Very-Dark-Blue);
+  background-position-y: 470px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 1000px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 150px;
+}
+
+.box1 {
+  width: 270px;
+  height: 160px;
+  background-color: var(--Dark-Blue);
+  padding: 35px;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 10px 70px 10px 10px;
+  position: relative;
+}
+
+img {
+  width: 100px;
+}
+
+.content2 {
+  position: absolute;
+  top: 95px;
+  display: flex;
+}
+
+.kotak {
+  width: 35px;
+  height: 35px;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 8px;
+}
+.kotak img {
+  width: 15px;
+  height: 18px;
+  margin-left: 9.5px;
+  margin-top: 6.5px;
+  padding-top: 2px;
+  padding-left: 0.9;
+}
+
+.kotak1 {
+  width: 35px;
+  height: 35px;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.kotak1 img {
+  width: 19px;
+  height: 16px;
+  margin-left: 9.5px;
+  margin-top: 6.5px;
+  position: absolute;
+  top: 2px;
+  right: 53px;
+}
+
+.kotak2 {
+  width: 35px;
+  height: 35px;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.kotak2 img {
+  width: 20px;
+  height: 14px;
+  margin-left: 9.5px;
+  margin-top: 6.5px;
+  position: absolute;
+  top: 3px;
+  right: 7px;
+}
+
+.box2 {
+  width: 500px;
+  height: 120px;
+  background-color: var(--Dark-Blue);
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.psatu {
+  color: var(--PaleBlue);
+  font-size: 10px;
+  padding-top: -5px;
+}
+
+.psatu span {
+  font-weight: bold;
+}
+
+.kolom0 {
+  width: 150px;
+  height: 55px;
+  background-color: white;
+  border-radius: 10px 10px 0px 10px;
+  position: absolute;
+  top: -35px;
+  right: 35px;
+  text-align: center;
+  line-height: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.kolom0 .angka {
+  font-weight: bold;
+  color: var(--Dark-Blue);
+  font-size: 30px;
+}
+
+.gb {
+  color: var(--Grayish-Blue);
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.triangleup {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+}
+
+.kolom {
+  width: 440px;
+  height: 14px;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 10px;
+}
+
+.kolom1 {
+  width: 80%;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: 10px;
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+.kolom2 {
+  width: 8.5px;
+  height: 8.5px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+
+.baris {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box2 .ptiga {
+  font-size: 10px;
+  color: var(--PaleBlue);
+  font-weight: bold;
+}
+
+.box2 .pempat {
+  font-size: 10px;
+  color: var(--PaleBlue);
+  font-weight: bold;
+}
+
+.attribution {
+  margin-top: -40px;
+}
